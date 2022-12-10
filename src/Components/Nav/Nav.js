@@ -5,13 +5,13 @@ import image from '../../Image/profile7.jpg'
 const Nav = () => {
     return (
         <div>
-            <div className="navbar bg-secondary">
+            <div className="navbar py-5 bg-secondary">
                 <div className="flex-1">
-                    <Link to='/' className="btn btn-ghost normal-case text-xl">Asif Ibne Kamal</Link>
+                    <Link to='/home' className="btn btn-ghost normal-case text-3xl text-white">Asif Ibne Kamal</Link>
                 </div>
                 <div className="flex-none gap-2">
                     <div className="form-control">
-                        <button className='btn btn-primary mr-5'> <Link to='/'>Home</Link></button>
+                        <button className='btn btn-primary mr-5'> <Link to='/home'>Home</Link></button>
                     </div>
                     <div className="form-control">
                         <button className='btn btn-primary mr-5'> <Link to='/resume'>Resume</Link></button>

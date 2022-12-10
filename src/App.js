@@ -1,6 +1,6 @@
-import { Result } from 'postcss';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import './App.css';
+import Home from './Components/Home/Home';
 import Main from './Components/Layout/Main';
 import Resume from './Components/Resume/Resume';
 
@@ -10,6 +10,10 @@ function App() {
       path: '/',
       element: <Main></Main>,
       children: [
+        {
+          path: '/home',
+          element: <Home></Home>
+        },
         {
           path: '/resume',
           element: <Resume></Resume>
