@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 import cover1 from '../../Image/projectcover1.png'
 import cover2 from '../../Image/projectcover2.png'
 import cover3 from '../../Image/projectcover3.png'
@@ -15,10 +16,7 @@ const Card = () => {
                     </div>
                     <figure><img src={cover1} alt="Shoes" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
-                    </div>
-                    <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://mobile-resale-dfa9a.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
+                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/mobilebazar'>View Details</Link></button>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
@@ -28,10 +26,7 @@ const Card = () => {
                     </div>
                     <figure><img src={cover2} alt="Shoes" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
-                    </div>
-                    <div className="card-actions justify-center w-full">
-                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://pro-visa-consultant.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
+                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/consultant'>View Details</Link></button>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
@@ -41,10 +36,7 @@ const Card = () => {
                     </div>
                     <figure><img src={cover3} alt="Shoes" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
-                    </div>
-                    <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://course-academy-73981.web.app" target="_blank" rel="noopener noreferrer">View Site</a></button>
+                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/course'>View Details</Link></button>
                     </div>
                 </div>
             </div>
