@@ -5,7 +5,7 @@ import image from '../../Image/profile7.jpg'
 const Nav = () => {
     return (
         <div>
-            <div className="navbar py-5 bg-secondary">
+            <div className="navbar py-5 bg-base-200">
                 <div className="flex-1">
                     <Link to='/home' className="btn btn-ghost normal-case text-3xl text-white">Asif Ibne Kamal</Link>
                 </div>
@@ -26,14 +26,7 @@ const Nav = () => {
                             </div>
                         </label>
                         <ul tabIndex={0} className="mt-3 p-2 shadow menu menu-compact dropdown-content bg-base-100 rounded-box w-52">
-                            <li>
-                                <Link className="justify-between">
-                                    Profile
-                                    <span className="badge">New</span>
-                                </Link>
-                            </li>
-                            <li><Link>Settings</Link></li>
-                            <li><Link>Logout</Link></li>
+
                         </ul>
                     </div>
                 </div>
