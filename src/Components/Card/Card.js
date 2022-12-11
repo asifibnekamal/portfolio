@@ -1,4 +1,7 @@
 import React from 'react';
+import cover1 from '../../Image/projectcover1.png'
+import cover2 from '../../Image/projectcover2.png'
+import cover3 from '../../Image/projectcover3.png'
 
 const Card = () => {
     return (
@@ -9,27 +12,39 @@ const Card = () => {
                     <div className="card-body">
                         <h2 className="card-title">Mobile Bazar</h2>
                         <p>It's a mobile resale website where people can buy and sale used website</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary"><a href="https://mobile-resale-dfa9a.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                        </div>
+                    </div>
+                    <figure><img src={cover1} alt="Shoes" /></figure>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
+                    </div>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://mobile-resale-dfa9a.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title">Visa Consultant</h2>
                         <p>It's a visa consultant website.</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary"><a href="https://pro-visa-consultant.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                        </div>
+                    </div>
+                    <figure><img src={cover2} alt="Shoes" /></figure>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
+                    </div>
+                    <div className="card-actions justify-center w-full">
+                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://pro-visa-consultant.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
                     <div className="card-body">
                         <h2 className="card-title">Course Academy</h2>
-                        <p>It's a e-learning website and people can learn coueses and take quiz</p>
-                        <div className="card-actions justify-end">
-                            <button className="btn btn-primary"><a href="https://course-academy-73981.web.app" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                        </div>
+                        <p>It's a e-learning website and people can learn coueses and take quiz.</p>
+                    </div>
+                    <figure><img src={cover3} alt="Shoes" /></figure>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary w-full bg-violet-900">View Details</button>
+                    </div>
+                    <div className="card-actions justify-center">
+                        <button className="btn btn-primary w-full bg-violet-900"><a href="https://course-academy-73981.web.app" target="_blank" rel="noopener noreferrer">View Site</a></button>
                     </div>
                 </div>
             </div>
