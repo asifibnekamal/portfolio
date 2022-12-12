@@ -19,7 +19,7 @@ const Consultant = () => {
                 <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/pro-visa-consultant-clint" target="_blank" rel="noopener noreferrer">GitHub Link</a></button>
             </div>
             <div className="min-h-screen bg-base-200">
-                <div className="hero-content flex-col lg:flex-row-reverse">
+                <div className="hero-content flex-col lg:flex-row-reverse pb-0">
                     <div>
                         <img src={img1} className="max-w-sm" alt='' />
                     </div>
@@ -27,7 +27,7 @@ const Consultant = () => {
                         <img src={img2} className="max-w-sm" alt='' />
                     </div>
                     <div>
-                        <img src={img3} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                        <img src={img3} className="max-w-sm" alt='' />
                     </div>
                 </div>
             </div>

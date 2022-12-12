@@ -6,8 +6,8 @@ const Footer = () => {
         <div>
             <footer className="footer footer-center p-10 bg-base-200 text-base-content rounded">
                 <div className="grid grid-flow-col gap-4">
-                    <Link className="link link-hover">About</Link>
-                    <Link className="link link-hover">Contact</Link>
+                    <Link to="/about" className="link link-hover">About</Link>
+                    <a href="https://form.jotform.com/223433927920457" className="link link-hover" target="_blank" rel="noopener noreferrer">Contact</a>
                 </div>
                 <div>
                     <div className="grid grid-flow-col gap-4">

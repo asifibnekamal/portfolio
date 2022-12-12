@@ -14,9 +14,9 @@ const Card = () => {
                         <h2 className="card-title">Mobile Bazar</h2>
                         <p>It's a mobile resale website where people can buy and sale used website</p>
                     </div>
-                    <figure><img src={cover1} alt="Shoes" /></figure>
+                    <figure><img src={cover1} alt="" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/mobilebazar'>View Details</Link></button>
+                        <Link to='/mobilebazar' className="btn btn-primary w-full bg-violet-900">View Details</Link>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
@@ -24,9 +24,9 @@ const Card = () => {
                         <h2 className="card-title">Visa Consultant</h2>
                         <p>It's a visa consultant website.</p>
                     </div>
-                    <figure><img src={cover2} alt="Shoes" /></figure>
+                    <figure><img src={cover2} alt="" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/consultant'>View Details</Link></button>
+                        <Link to='/consultant' className="btn btn-primary w-full bg-violet-900">View Details</Link>
                     </div>
                 </div>
                 <div className="card w-96 bg-blue-900 shadow-xl">
@@ -34,9 +34,9 @@ const Card = () => {
                         <h2 className="card-title">Course Academy</h2>
                         <p>It's a e-learning website and people can learn coueses and take quiz.</p>
                     </div>
-                    <figure><img src={cover3} alt="Shoes" /></figure>
+                    <figure><img src={cover3} alt="" /></figure>
                     <div className="card-actions justify-center">
-                        <button className="btn btn-primary w-full bg-violet-900"><Link to='/course'>View Details</Link></button>
+                        <Link className="btn btn-primary w-full bg-violet-900" to='/course'>View Details</Link>
                     </div>
                 </div>
             </div>

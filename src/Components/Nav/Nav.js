@@ -15,6 +15,10 @@ const Nav = () => {
                         <Link to='/' className='btn btn-primary mr-5'>Home</Link>
                     </div>
                     <div className="form-control">
+                        <Link to='/about' className='btn btn-primary mr-5'>About Me</Link>
+                    </div>
+                    <div className="form-control">
+                        <Link to='/blog' className='btn btn-primary mr-5'>Blog</Link>
                     </div>
                     <div className="form-control">
                         <button className='btn btn-primary mr-5'><a href={AIK} download={AIK}>Download My Resume</a></button>
@@ -30,7 +34,9 @@ const Nav = () => {
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li> <Link to='/' className='btn btn-primary mr-5'>Home</Link></li>
                         <li> <button className='btn btn-primary mr-5'><a href={AIK} download={AIK}>Download My Resume</a></button></li>
-                        <li> <Link to='/about' className='btn btn-primary mr-5'>About Me</Link>
+                        <li> <Link to='/blog' className='btn btn-primary mr-5'>Blog</Link></li>
+                        <li> <Link to='/about' className='btn btn-primary mr-5'>About Me</Link></li>
+                        <li> <button className='btn btn-primary mr-5'><a href="https://form.jotform.com/223433927920457" target="_blank" rel="noopener noreferrer">Contact</a></button>
                         </li>
                     </ul>
                 </div>

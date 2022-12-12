@@ -27,7 +27,7 @@ const Course = () => {
                         <img src={img2} className="max-w-sm" alt='' />
                     </div>
                     <div>
-                        <img src={img3} className="max-w-sm rounded-lg shadow-2xl" alt='' />
+                        <img src={img3} className="max-w-sm" alt='' />
                     </div>
                 </div>
             </div>
