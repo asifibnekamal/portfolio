@@ -15,8 +15,8 @@ const Course = () => {
                 <h3>5.react-bootstrap</h3>
             </div>
             <div className="card-actions justify-center">
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://course-academy-73981.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/course-academy-client" target="_blank" rel="noopener noreferrer">View Site</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://course-academy-73981.web.app/" target="_blank" rel="noopener noreferrer">VIEW SITE</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/course-academy-client" target="_blank" rel="noopener noreferrer">GITHUB LINK</a></button>
             </div>
             <div className="min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">

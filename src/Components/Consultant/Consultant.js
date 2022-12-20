@@ -15,8 +15,8 @@ const Consultant = () => {
                 <h3>5.used react, react router dom etc</h3>
             </div>
             <div className="card-actions justify-center">
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://pro-visa-consultant.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/pro-visa-consultant-clint" target="_blank" rel="noopener noreferrer">GitHub Link</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://pro-visa-consultant.web.app/" target="_blank" rel="noopener noreferrer">VIEW SITE</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/pro-visa-consultant-clint" target="_blank" rel="noopener noreferrer">GITHUB LINK</a></button>
             </div>
             <div className="min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse pb-0">

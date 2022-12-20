@@ -16,8 +16,8 @@ const MobileBazar = () => {
                 <h3>6.Firebase login system</h3>
             </div>
             <div className="card-actions justify-center">
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://mobile-resale-dfa9a.web.app/" target="_blank" rel="noopener noreferrer">View Site</a></button>
-                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/mobile-resale-clint" target="_blank" rel="noopener noreferrer">View Site</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://mobile-resale-dfa9a.web.app/" target="_blank" rel="noopener noreferrer">VIEW SITE</a></button>
+                <button className="btn btn-primary w-1/2 bg-violet-900"><a href="https://github.com/ShuvoAsif/mobile-resale-clint" target="_blank" rel="noopener noreferrer">GITHUB LINK</a></button>
             </div>
             <div className="min-h-screen bg-base-200">
                 <div className="hero-content flex-col lg:flex-row-reverse">
